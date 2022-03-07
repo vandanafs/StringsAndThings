@@ -94,15 +94,15 @@ public class StringsAndThings {
      */
     public Boolean gIsHappy(String input){
 
-        int flag=0;
+        boolean  flag=false;
         for(int i=0; i<input.length();i++){
             //xxggyygxx
             if(input.charAt(i)=='g'&& input.charAt(i+1)=='g'){
                 System.out.println("im here");
-                  flag=1;
+                  flag=true;
             }
         }
-        return true;
+        return flag;
     }
 
 
