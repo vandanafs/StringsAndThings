@@ -77,7 +77,7 @@ public class StringsAndThings {
             }
         }
         if (isCount % 2 == 0 && notCount % 2 == 0) {
-        return true;
+          return true;
         }
         else
         {return false;
